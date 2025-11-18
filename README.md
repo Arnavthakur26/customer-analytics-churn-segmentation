@@ -99,8 +99,6 @@ screenshots/
     churn_explorer.png
 ```
 
-Example in README:
-
 ![Dashboard Home](screenshots/dashboard_home.png)
 ![Segment Analysis](screenshots/segment_analysis.png)
 ![Churn Explorer](screenshots/churn_explorer.png)
