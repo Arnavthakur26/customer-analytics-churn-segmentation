@@ -57,7 +57,3 @@ dist/
 # --- Logs ---
 logs/
 *.log
-
-# --- Screenshots ---
-screenshots/
-!screenshots/.gitkeep
