@@ -1,0 +1,63 @@
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.nbconvert/
+jupyter_notebook_config.py
+
+# --- Data ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+
+
+# --- Models ---
+models/*
+!models/.gitkeep
+
+# --- Dashboard Cache ---
+dashboard/__pycache__/
+.streamlit/
+**/.streamlit/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE files ---
+.vscode/
+.idea/
+
+# --- Build artifacts ---
+build/
+dist/
+*.bak
+
+# --- Parquet & temp files ---
+*.parquet
+*.tmp
+*.temp
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Screenshots ---
+screenshots/
+!screenshots/.gitkeep
